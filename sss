@@ -1,0 +1,160 @@
+if game.ReplicatedStorage.Moves:FindFirstChild("TigerDrop") then
+v = game.ReplicatedStorage.Moves["TigerDrop"]
+else
+v = Instance.new("Folder", game.ReplicatedStorage.Moves)
+end
+v.Name = "TigerDrop"
+if game.ReplicatedStorage.Moves.TigerDrop:FindFirstChild("Sound") then
+v = game.ReplicatedStorage.Moves.TigerDrop["Sound"]
+else
+v = Instance.new("StringValue", game.ReplicatedStorage.Moves.TigerDrop)
+end
+v.Value = 'TigerSwing'
+v.Name = "Sound"
+if game.ReplicatedStorage.Moves.TigerDrop:FindFirstChild("Anim") then
+v = game.ReplicatedStorage.Moves.TigerDrop["Anim"]
+else
+v = Instance.new("Animation", game.ReplicatedStorage.Moves.TigerDrop)
+end
+
+v.AnimationId = "rbxassetid://12346955560"
+v.Name = "Anim"
+if game.ReplicatedStorage.Moves.TigerDrop:FindFirstChild("BoostGoon") then
+v = game.ReplicatedStorage.Moves.TigerDrop["BoostGoon"]
+else
+v = Instance.new("IntValue", game.ReplicatedStorage.Moves.TigerDrop)
+end
+v.Value = 10
+v.Name = "BoostGoon"
+if game.ReplicatedStorage.Moves.TigerDrop:FindFirstChild("AniSpeed") then
+v = game.ReplicatedStorage.Moves.TigerDrop["AniSpeed"]
+else
+v = Instance.new("NumberValue", game.ReplicatedStorage.Moves.TigerDrop)
+end
+v.Value = 10000000
+v.Name = "AniSpeed"
+if game.ReplicatedStorage.Moves.TigerDrop:FindFirstChild("HitboxLocations") then
+v = game.ReplicatedStorage.Moves.TigerDrop["HitboxLocations"]
+else
+v = Instance.new("StringValue", game.ReplicatedStorage.Moves.TigerDrop)
+end
+v.Value = '[["RightHand",2,[0,0,0]],["RightLowerArm",1.125,[0,0,0]],["RightUpperArm",0.75,[0,0,0]]]'
+v.Name = "HitboxLocations"
+if game.ReplicatedStorage.Moves.TigerDrop:FindFirstChild("MoveDuration") then
+v = game.ReplicatedStorage.Moves.TigerDrop["MoveDuration"]
+else
+v = Instance.new("NumberValue", game.ReplicatedStorage.Moves.TigerDrop)
+end
+v.Value = 0
+v.Name = "MoveDuration"
+if game.ReplicatedStorage.Moves.TigerDrop:FindFirstChild("MoveForward") then
+v = game.ReplicatedStorage.Moves.TigerDrop["MoveForward"]
+else
+v = Instance.new("IntValue", game.ReplicatedStorage.Moves.TigerDrop)
+end
+v.Value = 0
+v.Name = "MoveForward"
+if game.ReplicatedStorage.Moves.TigerDrop:FindFirstChild("KnockOut") then
+v = game.ReplicatedStorage.Moves.TigerDrop["KnockOut"]
+else
+v = Instance.new("Folder", game.ReplicatedStorage.Moves.TigerDrop)
+end
+v.Name = "KnockOut"
+if game.ReplicatedStorage.Moves.TigerDrop:FindFirstChild("HSound") then
+v = game.ReplicatedStorage.Moves.TigerDrop["HSound"]
+else
+v = Instance.new("StringValue", game.ReplicatedStorage.Moves.TigerDrop)
+end
+v.Value = 'TigerDrop'
+v.Name = "HSound"
+if game.ReplicatedStorage.Moves.TigerDrop:FindFirstChild("WhenAttacking") then
+v = game.ReplicatedStorage.Moves.TigerDrop["WhenAttacking"]
+else
+v = Instance.new("Folder", game.ReplicatedStorage.Moves.TigerDrop)
+end
+v.Name = "WhenAttacking"
+if game.ReplicatedStorage.Moves.TigerDrop:FindFirstChild("Invulnerable") then
+v = game.ReplicatedStorage.Moves.TigerDrop["Invulnerable"]
+else
+v = Instance.new("Folder", game.ReplicatedStorage.Moves.TigerDrop)
+end
+v.Name = "Invulnerable"
+if game.ReplicatedStorage.Moves.TigerDrop:FindFirstChild("HitDur") then
+v = game.ReplicatedStorage.Moves.TigerDrop["HitDur"]
+else
+v = Instance.new("NumberValue", game.ReplicatedStorage.Moves.TigerDrop)
+end
+v.Value = 0.3
+v.Name = "HitDur"
+if game.ReplicatedStorage.Moves.TigerDrop:FindFirstChild("IgnoreResist") then
+v = game.ReplicatedStorage.Moves.TigerDrop["IgnoreResist"]
+else
+v = Instance.new("Folder", game.ReplicatedStorage.Moves.TigerDrop)
+end
+v.Name = "IgnoreResist"
+if game.ReplicatedStorage.Moves.TigerDrop:FindFirstChild("IgnoreBlock") then
+v = game.ReplicatedStorage.Moves.TigerDrop["IgnoreBlock"]
+else
+v = Instance.new("Folder", game.ReplicatedStorage.Moves.TigerDrop)
+end
+v.Name = "IgnoreBlock"
+if game.ReplicatedStorage.Moves.TigerDrop:FindFirstChild("Trail") then
+v = game.ReplicatedStorage.Moves.TigerDrop["Trail"]
+else
+v = Instance.new("StringValue", game.ReplicatedStorage.Moves.TigerDrop)
+end
+v.Value = ''
+v.Name = "Trail"
+if game.ReplicatedStorage.Moves.TigerDrop:FindFirstChild("DistanceBonus") then
+v = game.ReplicatedStorage.Moves.TigerDrop["DistanceBonus"]
+else
+v = Instance.new("NumberValue", game.ReplicatedStorage.Moves.TigerDrop)
+end
+v.Value = 3
+v.Name = "DistanceBonus"
+if game.ReplicatedStorage.Moves.TigerDrop:FindFirstChild("HSize") then
+v = game.ReplicatedStorage.Moves.TigerDrop["HSize"]
+else
+v = Instance.new("NumberValue", game.ReplicatedStorage.Moves.TigerDrop)
+end
+v.Value = 200
+v.Name = "HSize"
+if game.ReplicatedStorage.Moves.TigerDrop:FindFirstChild("KnockoutDistance") then
+v = game.ReplicatedStorage.Moves.TigerDrop["KnockoutDistance"]
+else
+v = Instance.new("NumberValue", game.ReplicatedStorage.Moves.TigerDrop)
+end
+v.Value = 5
+v.Name = "KnockoutDistance"
+if game.ReplicatedStorage.Moves.TigerDrop:FindFirstChild("CounterAttack") then
+v = game.ReplicatedStorage.Moves.TigerDrop["CounterAttack"]
+else
+v = Instance.new("Folder", game.ReplicatedStorage.Moves.TigerDrop)
+end
+v.Name = "CounterAttack"
+if game.ReplicatedStorage.Moves.TigerDrop:FindFirstChild("Dmg") then
+v = game.ReplicatedStorage.Moves.TigerDrop["Dmg"]
+else
+v = Instance.new("IntValue", game.ReplicatedStorage.Moves.TigerDrop)
+end
+v.Value = 500
+v.Name = "Dmg"
+if game.ReplicatedStorage.Moves.TigerDrop:FindFirstChild("ForceSF") then
+v = game.ReplicatedStorage.Moves.TigerDrop["ForceSF"]
+else
+v = Instance.new("NumberValue", game.ReplicatedStorage.Moves.TigerDrop)
+end
+v.Value = 0
+v.Name = "ForceSF"
+if game.ReplicatedStorage.Moves.TigerDrop:FindFirstChild("RagdollHeight") then
+v = game.ReplicatedStorage.Moves.TigerDrop["RagdollHeight"]
+else
+v = Instance.new("NumberValue", game.ReplicatedStorage.Moves.TigerDrop)
+end
+v.Value = 0.5
+v.Name = "RagdollHeight"
+
+game.ReplicatedStorage.Styles.Brawler.Rush1.Value = "TigerDrop"
+game.ReplicatedStorage.Styles.Brawler.Strike1.Value = "TigerDrop"
+game.ReplicatedStorage.Styles.Brawler.VisualName.Value = "Ghost"
+game.ReplicatedStorage.Styles.Brawler.Color.Value = Color3.new(0.6, 0.8, 0.8)
